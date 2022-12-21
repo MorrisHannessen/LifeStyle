@@ -14,6 +14,7 @@
 		83109438294B5FFA0036B5E6 /* Login Dash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83109437294B5FFA0036B5E6 /* Login Dash.swift */; };
 		8310943A294B63EC0036B5E6 /* FirstLogin Dash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83109439294B63EC0036B5E6 /* FirstLogin Dash.swift */; };
 		8310943C294C705B0036B5E6 /* Weight and Height Dash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8310943B294C705B0036B5E6 /* Weight and Height Dash.swift */; };
+		83C65F7D2951A80B002CAB9E /* Main Dash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C65F7C2951A80B002CAB9E /* Main Dash.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		83109437294B5FFA0036B5E6 /* Login Dash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login Dash.swift"; sourceTree = "<group>"; };
 		83109439294B63EC0036B5E6 /* FirstLogin Dash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FirstLogin Dash.swift"; sourceTree = "<group>"; };
 		8310943B294C705B0036B5E6 /* Weight and Height Dash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Weight and Height Dash.swift"; sourceTree = "<group>"; };
+		83C65F7C2951A80B002CAB9E /* Main Dash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Main Dash.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				831094252949D2780036B5E6 /* LifeStyleapp.swift */,
-				831094272949D2780036B5E6 /* Register Dash.swift */,
+				83C65F7C2951A80B002CAB9E /* Main Dash.swift */,
 				83109439294B63EC0036B5E6 /* FirstLogin Dash.swift */,
+				831094272949D2780036B5E6 /* Register Dash.swift */,
 				8310943B294C705B0036B5E6 /* Weight and Height Dash.swift */,
 				83109437294B5FFA0036B5E6 /* Login Dash.swift */,
 				831094292949D27C0036B5E6 /* Assets.xcassets */,
@@ -111,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8310941D2949D2780036B5E6 /* Build configuration list for PBXProject "test database" */;
+			buildConfigurationList = 8310941D2949D2780036B5E6 /* Build configuration list for PBXProject "LifeStyle" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				831094282949D2780036B5E6 /* Register Dash.swift in Sources */,
+				83C65F7D2951A80B002CAB9E /* Main Dash.swift in Sources */,
 				8310943C294C705B0036B5E6 /* Weight and Height Dash.swift in Sources */,
 				8310943A294B63EC0036B5E6 /* FirstLogin Dash.swift in Sources */,
 				83109438294B5FFA0036B5E6 /* Login Dash.swift in Sources */,
@@ -278,7 +282,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"test database/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LifeStyle/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = LifeStyles;
@@ -308,7 +312,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"test database/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LifeStyle/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = LifeStyles;
@@ -334,7 +338,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8310941D2949D2780036B5E6 /* Build configuration list for PBXProject "test database" */ = {
+		8310941D2949D2780036B5E6 /* Build configuration list for PBXProject "LifeStyle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8310942E2949D27C0036B5E6 /* Debug */,

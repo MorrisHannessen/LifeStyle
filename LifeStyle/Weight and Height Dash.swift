@@ -22,37 +22,25 @@ struct Weight_and_Height_Dash: View {
                 .font(.system(size: 40))
                 .position(x: 200)
             VStack {
-                TextField("Email...", text: $Height)
+                TextField("enter Height...", text: $Height)
                     .padding()
                     .frame(maxWidth: 350)
                     .background(Color.white.opacity(0.8).cornerRadius(20))
                     .foregroundColor(Color.black)
                     .font(.headline)
                     .position(.init(x: 195, y: -180))
-                TextField("Password...", text: $Weight)
+                Text("CM")
+                    .position(x: 330, y: -230)
+                TextField("Enter Weight...", text: $Weight)
                     .padding()
                     .frame(maxWidth: 350)
                     .background(Color.white.opacity(0.8).cornerRadius(20))
                     .foregroundColor(Color.black)
                     .font(.headline)
                     .position(.init(x: 195, y: -185))
-                
-                Picker(selection: .constant(1), label: Text("Lengte")) {
-                        Text("140").tag(1)
-                        Text("145").tag(2)
-                        Text("150").tag(3)
-                        Text("155").tag(4)
-                        Text("160").tag(5)
-                        Text("165").tag(6)
-                        Text("170").tag(7)
-                        Text("175").tag(8)
-                        Text("180").tag(9)
-                        Text("185").tag(10)
-                }
-                .padding()
-                
-                
-                Button("Login") {
+                Text("KG")
+                    .position(x: 330, y: -235)
+                Button("Enter") {
                     
                 }
                 .buttonStyle(GrowingButton2())
